@@ -1,0 +1,60 @@
+body {
+    background-image: url(./green-and-white-background-1920-x-1080-qtl3mg6ncxqifkvp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#logo {
+    text-align: right;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 70;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 35;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 23;
+}
+
+#asynch {
+    color: green;
+    font-weight: bold;
+}
+
+#date {
+    color: green;
+    font-weight: bold;
+}
+
+.p2 {
+    text-align: center;
+    font-size: 23;
+}
+
+#pagasa {
+    color: green;
+    font-weight: bold;
+}
+
+.underline {
+    text-align: center;
+    font-size: 40;
+}
+
+.p4 {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 20;
+}
