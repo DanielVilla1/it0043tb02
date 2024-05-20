@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    background-image: url(bg.jpg);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Image{
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(pokeball.png);
+}
+
+.Type{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+
+.Weaknesses{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+
+.name{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.details1{
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(ice_type_pokemon_wallpaper_by_elbarnzo_dbi2axg-414w-2x.jpg);
+}
+
+.details2{
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(electric_pokemon_energy_wallpaper_by_elbarnzo_d74n7g8-fullview.jpg);
+}
+
+.details3{
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(fire_pokemon_energy_wallpaper_by_elbarnzo_d7519pz-fullview.jpg);
+}
+
+.details4{
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(electric_pokemon_energy_wallpaper_by_elbarnzo_d74n7g8-fullview.jpg);
+}
+
+.details5{
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(water_pokemon_energy_wallpaper_by_elbarnzo_d75ebft-fullview.jpg);
+}
+
+.details6{
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(fire_pokemon_energy_wallpaper_by_elbarnzo_d7519pz-fullview.jpg);
+}
+
+.ice{
+    color: black;
+    background-color: #70cbd4;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+
+.flying{
+    color: black;
+    background-color: #7da6de;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+
+.electric{
+    color: black;
+    background-color: #E5C531;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+
+.rock{
+    color: black;
+    background-color: #B2A061;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+
+.water{
+    color: black;
+    background-color: #539AE2;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+
+.fire{
+    color: black;
+    background-color: #EA7A3C;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+
+.grass{
+    color: black;
+    background-color: #71C558;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+
+.ground{
+    color: black;
+    background-color: #CC9F4F;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+
+.steel{
+    color: black;
+    background-color: #89A1B0;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+.card {
+    width: 30%;
+    height: 20%;
+    margin: 10px;
+   box-shadow: 5px 10px gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.add {
+    margin: 0px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+.release {
+    margin: 0px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+.add:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.release:hover {
+    background-color: #0056b3;
+    color: white;
+}
