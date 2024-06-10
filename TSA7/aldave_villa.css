@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.shutterstock.com/image-vector/dog-toy-puppy-icon-vector-600nw-698231458.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: wheat;
+    color: black;
+    padding: .5px 0;
+    height: fit-content;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    padding: 10px;
+}
+
+.home {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.menuList {
+    display: flex;
+    flex-grow: 3;
+    justify-content: right;
+}
+
+.option {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.option>a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s all ease;
+}
+
+.option>a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+/*HOME*/
+.mainContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40% 35% auto;
+    height: 825px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.mainImage {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    box-shadow: 5px 6px rgb(104, 97, 97);
+}
+
+.mainImg {
+    width: 100%;
+    height: 100%;
+    background-position: cover;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: wheat;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 6px rgb(104, 97, 97);
+}
+
+#cardOne {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#cardTwo {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.cardImg {
+    width: 120px;
+}
+
+.cardDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+    font-size: x-large;
+}
+
+.cardTitle {
+    align-self: center;
+    font-size: 1.6rem;
+}
+
+.cardText {
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.newsTab {
+    display: flex;
+    flex-direction: row;
+    background-color: wheat;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 6px rgb(104, 97, 97);
+}
+
+#newsID {
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+
+.newsDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+
+.newsTop {
+    font-size: 3rem;
+}
+
+.newsTitle {
+    font-size: 2.2rem;
+    padding: 2.5px;
+}
+
+hr {
+    height: 5px;
+    background-color: black;
+}
+
+.newsText {
+    padding: 5px;
+    font-size: 2rem;
+}
+
+.extraTab {
+    display: grid;
+    /* grid-columns: 3/1; */
+    background-color: wheat;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 6px rgb(104, 97, 97);
+}
+
+#extraIDone {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#extraIDtwo {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.extraDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+
+.extraDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+}
+
+.extraTitle {
+    align-self: center;
+    font-size: 2rem;
+}
+
+.extraText {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+@media (max-width: 1100px) {
+    .mainContainer {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    .mainImage {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        box-shadow: 5px 6px rgb(104, 97, 97);
+    }
+
+    .mainImg {
+        width: 100%;
+        height: 100%;
+        background-position: cover;
+    }
+
+    #cardOne {
+        grid-column: 1/2;
+        grid-row: 2/2;
+    }
+
+    #cardTwo {
+        grid-column: 2/2;
+        grid-row: 2/3;
+    }
+
+    .cardImg {
+        width: 120px;
+    }
+
+    #extraIDone {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #extraIDtwo {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    #newsID {
+        grid-column: 1/3;
+        grid-row: 5/6;
+    }
+
+}
+
+
+
+@media (max-width: 800px) {
+    /* nav {
+        background-color: wheat;
+        color: black;
+        padding: .5px 0;
+        height: fit-content;
+    }
+    
+    nav .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } */
+
+    .logo {
+        width: 70px;
+        padding: 10px;
+    }
+
+    .home {
+        display: flex;
+        font-size: 1.3rem;
+    }
+
+    .menuList {
+        display: flex;
+        flex-grow: 3;
+        justify-content: right;
+    }
+
+    .option {
+        list-style: none;
+        margin-left: 30px;
+    }
+
+    .option>a {
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: black;
+        transition: 0.3s all ease;
+    }
+
+    .option>a:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    .mainContainer {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+    }
+
+    .mainImage {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        box-shadow: 5px 6px rgb(104, 97, 97);
+    }
+
+    .mainImg {
+        width: 100%;
+        height: 100%;
+        background-position: cover;
+    }
+
+    #cardOne {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #cardTwo {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .cardImg {
+        width: 120px;
+    }
+
+
+    #extraIDone {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    #extraIDtwo {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    #newsID {
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    .newsTab {
+        display: flex;
+        flex-direction: row;
+        background-color: wheat;
+        padding: 10px;
+        gap: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 6px rgb(104, 97, 97);
+    }
+}
