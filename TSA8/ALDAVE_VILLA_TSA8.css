@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,13 +7,14 @@
 }
 
 body {
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4592740d-aa28-4bae-bf98-80e888200666/dcsdr7x-0148a9da-7418-4261-b8e5-25f666988e2a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ1OTI3NDBkLWFhMjgtNGJhZS1iZjk4LTgwZTg4ODIwMDY2NlwvZGNzZHI3eC0wMTQ4YTlkYS03NDE4LTQyNjEtYjhlNS0yNWY2NjY5ODhlMmEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CzxAymyTwBrX_VJ--zoT50dniOzs8ImZg7cbu8Yy3YM);
-    background-repeat: no-repeat;
+    background-image: url(https://c.wallhere.com/photos/25/ca/Adventure_Time_simple_background_blue_humanized-116892.png!s1);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #63bda4;
 }
 
 .main-container {
-    width: 90vw;
+    width: 70vw;
     margin: 20px auto;
     height: 700px;
     display: grid;
@@ -29,7 +32,7 @@ body {
 }
 
 .reset-button {
-    width: 100%;
+    width: 98%;
 }
 
 .gap-button {
@@ -107,20 +110,33 @@ body {
     padding: 3%;
 }
 
+h1 {
+    width: 100%;
+    align-items: start;
+    color: white;
+    width: fit-content;
+    block-size: fit-content;
+    border-radius: 5px;
+    font-family: "Press Start 2P", system-ui;
+    margin: 10px auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
 h2 {
     width: 100%;
     align-items: start;
     color: white;
-    background-color: blue;
     width: fit-content;
     block-size: fit-content;
     border-radius: 5px;
-    /* border: 1px solid white; */
+    font-family: "Press Start 2P", system-ui;
+    margin: 7.5px auto;
 }
 
 button {
     padding: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 20px;
     justify-content: center;
@@ -128,10 +144,12 @@ button {
     margin: 5px;
     cursor: pointer;
     box-shadow: 0 6px #ffdddd;
+    font-weight: bolder;
+    font-size: large;
 }
 
 #button-purple {
-    background-color: darkorchid;
+    background-color: rgb(235, 217, 61);
 }
 
 #button-purple:active {
@@ -139,12 +157,9 @@ button {
     transform: translateY(4px);
 }
 
-/* #button-purple:hover{
-    transform: scale(1.1);
-} */
-
 #button-red {
     background-color: rgb(235, 19, 19);
+    margin-right: 10.5px;
 }
 
 #button-red:active {
@@ -153,7 +168,7 @@ button {
 }
 
 #button-purple:hover {
-    background-color: rgb(84, 18, 117);
+    background-color: rgb(185, 155, 17);
 }
 
 #button-red:hover {
@@ -162,53 +177,80 @@ button {
 
 .firstcolumn {
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 3/4;
     margin: 20px;
 }
 
 .secondcolumn {
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 3/4;
     margin: 20px;
 }
 
 .thirdcolumn {
     grid-column: 3/4;
-    grid-row: 1/2;
+    grid-row: 3/4;
     margin: 20px;
 }
 
 #flex-box-simulation-border {
     height: 500px;
-    border: 1px solid black;
+    border: 10px solid black;
     display: flex;
     flex-wrap: wrap;
     grid-column: 1/4;
-    grid-row: 3/5;
-    background-image: url(https://wallpapercave.com/wp/wp6061438.jpg);
+    grid-row: 1/2;
+    background-image: url(https://img2.storyblok.com/960x540/f/149639/1920x1080/193a26e676/pm-pellets-bg-01.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #flexbox1 {
-    background-color: red;
+    background-color: rgb(230, 230, 182);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transition: 1s all ease;
+    background-image: url(pacman-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
 }
 
 #flexbox2 {
-    background-color: blue;
+    background-color: rgb(28, 8, 141);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    transition: 1s all ease;
+    background-image: url(blueghost.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
 }
 
 #flexbox3 {
-    background-color: green;
+    background-color: lightcoral;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    transition: 1s all ease;
+    background-image: url(redghost-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+
 }
 
 .box {
     width: 100px;
     height: 100px;
-    border: 1px solid rgb(255, 153, 85);
     border-radius: 10px;
     color: rgb(255, 255, 255);
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
-    align-content: center;
+    align-content: start;
+    font-family: "Press Start 2P", system-ui;
 }
