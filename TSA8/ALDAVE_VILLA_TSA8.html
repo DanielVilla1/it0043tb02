@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ALDAVE_VILLA_TSA8.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="firstcolumn">
+        <h2>Reset</h2>
+
+        <button class="reset-button" id="button-purple" onclick="ResetFlexBox()">Reset Flexbox</button>
+
+        <button class="gap-button" id="button-red" onclick="Gap()">Gap</button>
+
+        <input type="number" class="number-input" id="input-gap" value="0" min="0" oninput="GapButton()"/>
+
+        <h2>Align Items</h2>
+
+        <button class="align-start-button" id="button-purple" onclick="AlignStart()">Start</button>
+
+        <button class="align-center-button" id="button-purple" onclick="AlignCenter()">Center</button>
+
+        <button class="align-end-button" id="button-purple" onclick="AlignEnd()">End</button>
+      </div>
+
+      <div class="secondcolumn">
+        <h2>Flex Direction</h2>
+
+        <button class="row-button" id="button-purple" onclick="RowScript()">Row</button>
+
+        <button class="column-button" id="button-purple" onclick="ColumnScript()">Column</button>
+
+        <h2>Justify Content</h2>
+
+        <button class="start-button" id="button-purple" onclick="StartJustify()">Start</button>
+
+        <button class="center-button" id="button-purple" onclick="CenterJustify()">Center</button>
+
+        <button button class="end-button" id="button-purple" onclick="EndJustify()">End</button>
+
+        <button class="space-between-button" id="button-purple" onclick="BetweenJustify()">
+          Space Between
+        </button>
+
+        <button class="space-around-button" id="button-purple" onclick="AroundJustify()">
+          Space Around
+        </button>
+
+        <button class="space-evenly-button" id="button-purple" onclick="EvenlyJustify()">
+          Space Evenly
+        </button>
+      </div>
+
+      <div class="thirdcolumn">
+        <h2>Flex Grow</h2>
+
+        <button class="fg-reset-button" id="button-purple" onclick="ResetGrow()">Reset</button>
+
+        <button class="grow-all-button" id="button-purple" onclick="GrowFlex()">Grow All</button>
+
+        <button class="box1-button" id="button-red" onclick="BoxOne()">Box 1</button>
+
+        <input type="number" class="number-input" id="input-grow" value="0" min="0" oninput="InputOne()"/>
+
+        <button class="box2-button" id="button-red" onclick="BoxTwo()">Box 2</button>
+
+        <input type="number" class="number-input" id="input-grow-two" value="0" min="0" oninput="InputTwo()" />
+
+        <button class="box3-button" id="button-red" onclick="BoxThree()">Box 3</button>
+
+        <input type="number" class="number-input" id="input-grow-three" value="0" min="0" oninput="InputThree()" />
+      </div>
+
+      <div id="flex-box-simulation-border">
+        <div class="box" id="flexbox1">1</div>
+        <div class="box" id="flexbox2">2</div>
+        <div class="box" id="flexbox3">3</div>
+      </div>
+    </div>
+    <script src="ALDAVE_VILLA_TSA8.js"></script>
+  </body>
+</html>
